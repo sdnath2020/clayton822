@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css');
 
-
+/* _____ */
 body {
 	background-color: #ffffff;
 }
@@ -16,9 +16,11 @@ img {
 	color: #666666;
 	background-color: #ffffff;
 	font-size: 1rem;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial;
 	line-height: 1.75;
 }
+/* _____ */
+
 
 
 /* ___banner area style___ */
@@ -71,7 +73,7 @@ img {
 
 .promotional__text {
 	color: #000000;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-weight: 700;
 	line-height: 1.5rem;
 	padding-left: 0.75rem;
@@ -509,6 +511,7 @@ img {
 	color: #000000;
 	font-size: 1.75rem;
 	font-weight: 700;
+	line-height: 2.5rem;
 	margin: 0;
 }
 
@@ -536,25 +539,23 @@ img {
 
 
 
-/* _____ */
-.section-title h2 {
-	display: inline-block;
-	color: #000000;
-	font-size: 2rem;
-	font-weight: 700;
-	line-height: 1;
-	margin: 0;
-	position: relative;
+/* ___description and tab content style start___ */
+.description-title-border {
+	padding: 0.25rem;
+	text-align: center;
+	border-radius: 30px;
+	border: 2px solid #dddddd;
 }
 
-.section-title h2::after {
-	content: '';
-	width: 4rem;
-	height: 2px;
-	background-color: #868686;
-	position: absolute;
-	bottom: 0.5rem;
-	right: -4.5rem;
+.description-title-border h2 {
+	background-color: #105a8b;
+	border-radius: 1.5rem;
+	color: #ffffff;
+	font-size: 1.25rem;
+	font-weight: 700;
+	line-height: 2rem;
+	padding: 0.5rem 1rem;
+	margin: 0;
 }
 
 .section-title h4 {
@@ -572,7 +573,7 @@ img {
 	padding-left: 1.25rem;
 	list-style-type: square;
 }
-/* _____ */
+/* ___description and tab content style end___ */
 
 
 
@@ -609,6 +610,7 @@ img {
 
 .tab__content {
 	display: none;
+	min-height: 15rem;
 	padding: 2rem 0 1rem 0;
 }
 
@@ -718,7 +720,11 @@ img {
 
 
 
-/* _____ */
+/* ___footer area style start___ */
+footer {
+	font-size: 0.9rem;
+}
+
 .footer-top-border {
 	border-top: 2px solid #dddddd;
 }
