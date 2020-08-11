@@ -623,6 +623,31 @@ img {
 	animation: scale 0.7s ease-in-out;
 }
 
+#feedback_table tbody tr td:first-child {
+	width: 3rem;
+}
+
+#feedback_table tbody tr td:first-child i {
+	width: 1.25rem;
+	color: #5ba71b;
+}
+
+#feedback_table h6 {
+	columns: #333333;;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 0;
+}
+
+#feedback_table p {
+	color: #666666;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0;
+}
+
 @keyframes scale {
 	0% {
 		transform: scale(0.9);
